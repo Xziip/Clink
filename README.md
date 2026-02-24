@@ -22,9 +22,10 @@
 
 做这个应用就是单纯厌烦了分享视频/帖子的链接都要带一大串跟踪id,根本没把用户隐私放眼里啊，光这个应用初版出来，我就写了快100条清理规则，应用厂商真踏马不是人啊。。。
 
-应用安装包我也压到了1MB以内 600多KB 安装完3-4MB 看不惯动不动就把应用安装包都做200-300mb的人。。。
+应用安装包我也压到了1MB以内 600多KB 安装完1-2MB 看不惯动不动就把应用安装包都做200-300mb的人。。。
 
 纯Kotlin编写 0%第三方UI库 都是原生API 拒绝臃肿 就一个安装包 不分架构啥的(因为没.so)
+
 如果大家还看到有没净化掉的参数 欢迎提交PR贡献！（见[贡献指南](app/src/main/assets/readme.md)）
 
 应用的读音差不多是Cleank（抱歉不会音标qwq）Clean link 的意思 也有Cut link 的意思
@@ -133,7 +134,7 @@ com.clink.app/
 
 ### 要求
 - Android 8.0 (API 26) 及以上
-- 约 1MB 存储空间
+- 约 2MB 存储空间
 
 ### 安装方式
 1. **GitHub Releases** - [下载 APK](https://github.com/xziip/clink/releases)
@@ -257,7 +258,7 @@ A: **绝对不会！** Clink 完全离线工作，所有净化处理均在本地
 
 I created this app simply because I was fed up with shared video/post links carrying a bunch of tracking IDs. They don't care about user privacy at all! Just for the initial version of this app, I wrote nearly 100 cleaning rules. These app vendors are really... unacceptable.
 
-I've also compressed the APK to under 1MB (600+ KB), with installed size of 3-4MB. I can't understand those apps with 200-300MB installation packages...
+I've also compressed the APK to under 1MB (600+ KB), with installed size of 1-2MB. I can't understand those apps with 200-300MB installation packages...
 
 Written purely in Kotlin with 0% third-party UI libraries - all native APIs. Rejecting bloat - just one APK, no architecture splits (no native libraries).
 
@@ -276,7 +277,7 @@ Here are the features:
 ## ✨ Core Features
 
 ### 🎯 Smart Sanitization Engine
-- **93+ Tracking Parameter Rules** - Covers mainstream platforms like Taobao, JD, Pinduoduo, Bilibili, Douyin, Xiaohongshu, Weibo, Zhihu, Tieba, etc.
+- **93+ Tracking Parameter Rules** - Covers mainstream platforms like TikTok, YouTube, FaceBook, Google, Twitter/X, Instagram, Reddit, etc.
 - **Blacklist/Whitelist Mechanism** - Intelligently filters tracking parameters while preserving functional parameters (like video parts, timestamps, etc.)
 - **User-Defined Rules** - Support for adding custom blacklist/whitelist rules
 - **Privacy Level Indicators** - Distinguish between ordinary tracking parameters and high-risk privacy parameters (device fingerprints, user IDs, etc.)
@@ -369,7 +370,7 @@ com.clink.app/
 
 ### Requirements
 - Android 8.0 (API 26) and above
-- About 1MB storage space
+- About 2MB storage space
 
 ### Installation Methods
 1. **GitHub Releases** - [Download APK](https://github.com/xziip/clink/releases)
@@ -468,4 +469,5 @@ Special thanks to the following open-source projects for inspiration:
 **If you find Clink useful, please give it a ⭐ Star! Thank you meow~**
 
 ---
+
 
