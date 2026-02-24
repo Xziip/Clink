@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="images/icon.png" width="100" />
+
 # Clink - 链接隐私保护器
 
 **一款专注于隐私保护的超级轻量级 Android 链接净化工具**
@@ -29,6 +31,10 @@
 如果大家还看到有没净化掉的参数 欢迎提交PR贡献！（见[贡献指南](app/src/main/assets/readme.md)）
 
 应用的读音差不多是Cleank（抱歉不会音标qwq）Clean link 的意思 也有Cut link 的意思
+
+<div align="center">
+  <img src="images/menu_cn.png" width="300" />
+</div>
 
 接下来是功能介绍：
 
@@ -238,6 +244,8 @@ A: **绝对不会！** Clink 完全离线工作，所有净化处理均在本地
 
 <div align="center">
 
+<img src="images/icon.png" width="100" />
+
 # Clink - Link Privacy Protector
 
 **An Ultra-Lightweight Android Link Sanitizer Focused on Privacy Protection**
@@ -265,6 +273,10 @@ Written purely in Kotlin with 0% third-party UI libraries - all native APIs. Rej
 If you notice any parameters that haven't been cleaned, welcome to submit PRs! (See [Contribution Guide](app/src/main/assets/readme.md))
 
 The pronunciation is approximately "Cleank" - meaning "Clean link" as well as "Cut link".
+
+<div align="center">
+  <img src="images/menu_en.png" width="300" />
+</div>
 
 Here are the features:
 
