@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="108.0dp"
+    android:width="108.0dp"
+    android:viewportWidth="108.0"
+    android:viewportHeight="108.0">
+    <!-- 好丑的图标... -->
+    <group
+        android:pivotX="54.0"
+        android:pivotY="54.0"
+        android:scaleX="0.9"
+        android:scaleY="0.9">
+        <path
+            android:fillColor="@android:color/transparent"
+            android:pathData="M72,38 A26,26 0 1,0 72,70"
+            android:strokeColor="#ff39ff14"
+            android:strokeWidth="8.0" />
+        <path
+            android:fillColor="#ff39ff14"
+            android:pathData="M76,56 L70,70 L75,70 L69,84 L84,64 L79,64 Z" />
+    </group>
+</vector>

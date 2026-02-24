@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontalGap" format="dimension" />
+        <attr name="verticalGap" format="dimension" />
+    </declare-styleable>
+    
+    <attr name="textFillColor" format="color" />
+</resources>

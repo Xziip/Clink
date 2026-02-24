@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvBuiltinKey"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="utm_source"/>
+
+        <TextView
+            android:id="@+id/tvBuiltinType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blacklist"
+            android:textColor="#FFFFFF"
+            android:background="#666666"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"
+            android:textSize="11sp"
+            android:layout_marginStart="8dp"/>
+
+        <TextView
+            android:id="@+id/tvBuiltinDanger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DANGER"
+            android:textColor="#FFFFFF"
+            android:background="#FF4444"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"
+            android:textSize="11sp"
+            android:layout_marginStart="4dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvBuiltinLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"
+        android:text="UTM 来源渠道"/>
+
+</LinearLayout>

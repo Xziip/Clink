@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="12dp"
+    android:descendantFocusability="blocksDescendants"
+    android:background="?android:attr/selectableItemBackground">
+
+    <CheckBox
+        android:id="@+id/cbSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:focusable="false"
+        android:clickable="true"
+        android:layout_marginEnd="8dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            
+            <TextView
+                android:id="@+id/tvKey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="utm_source"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="?android:attr/textColorPrimary" />
+            
+            <TextView
+                android:id="@+id/typeBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WHITE"
+                android:textSize="10sp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/holo_blue_dark"
+                android:paddingHorizontal="4dp"
+                android:paddingVertical="1dp"
+                android:layout_marginStart="6dp"
+                android:visibility="gone"/>
+            
+            <TextView
+                android:id="@+id/dangerBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DANGER"
+                android:textSize="10sp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/holo_red_dark"
+                android:paddingHorizontal="4dp"
+                android:paddingVertical="1dp"
+                android:layout_marginStart="6dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Source Tracking"
+            android:textSize="12sp"
+            android:textColor="?android:attr/textColorSecondary"
+            android:layout_marginTop="2dp" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@android:drawable/ic_menu_delete"
+        android:tint="?android:attr/textColorSecondary"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:focusable="false"
+        android:clickable="true"
+        android:contentDescription="Delete" />
+
+</LinearLayout>

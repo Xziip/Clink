@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    针对 Android 12+ 的完整备份规则
+    Clink 无敏感账户数据，仅允许备份统计数据
+-->
+<full-backup-content>
+    <!-- 允许备份 Stats SharedPreferences -->
+    <include domain="sharedpref" path="clink_stats.xml" />
+</full-backup-content>

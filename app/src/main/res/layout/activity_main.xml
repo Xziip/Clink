@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main"
+    android:fillViewport="true"
+    android:overScrollMode="never">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="48dp"
+        android:paddingBottom="32dp"
+        android:paddingHorizontal="@dimen/spacing_m">
+
+        <!-- App 标题 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Clink"
+                android:textSize="28sp"
+                android:textColor="@color/accent"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:letterSpacing="0.08" />
+
+            <ImageButton
+                android:id="@+id/btnSettings"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@android:drawable/ic_menu_preferences"
+                android:tint="?android:attr/textColorPrimary"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/settings_title" />
+
+        </LinearLayout>
+
+        <!-- 顶部战绩区 -->
+        <LinearLayout
+            android:id="@+id/layoutStats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/spacing_xl">
+
+            <!-- 已净化链接 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_card"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingVertical="20dp"
+                android:paddingHorizontal="12dp"
+                android:layout_marginEnd="8dp">
+
+                <TextView
+                    android:id="@+id/tvStatLinks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="@dimen/stats_number_size"
+                    android:textColor="@color/accent"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    tools:text="128" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/label_stats_links"
+                    android:textSize="@dimen/text_xs"
+                    android:textColor="@color/text_secondary" />
+            </LinearLayout>
+
+            <!-- 拦截参数 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_card"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingVertical="20dp"
+                android:paddingHorizontal="12dp"
+                android:layout_marginStart="8dp">
+
+                <TextView
+                    android:id="@+id/tvStatParams"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="@dimen/stats_number_size"
+                    android:textColor="@color/accent_danger"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    tools:text="512" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/label_stats_params"
+                    android:textSize="@dimen/text_xs"
+                    android:textColor="@color/text_secondary" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 输入操作区 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="@dimen/spacing_m">
+
+            <!-- 多行可编辑文本框 -->
+            <EditText
+                android:id="@+id/etInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="@dimen/input_height"
+                android:background="@drawable/bg_input_field"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="14dp"
+                android:hint="@string/hint_input"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_secondary"
+                android:textSize="@dimen/text_m"
+                android:inputType="textMultiLine|textNoSuggestions"
+                android:gravity="top|start"
+                android:maxLines="5"
+                android:scrollbars="vertical"
+                android:layout_marginEnd="10dp"
+                android:imeOptions="actionDone" />
+
+            <!-- 剪贴板按钮 -->
+            <ImageButton
+                android:id="@+id/btnClipboard"
+                android:layout_width="@dimen/btn_clipboard_size"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_btn_clipboard"
+                android:src="@drawable/ic_clipboard"
+                android:contentDescription="@string/btn_paste"
+                android:scaleType="center"
+                android:padding="10dp" />
+        </LinearLayout>
+
+        <!-- 净化按钮 -->
+        <Button
+            android:id="@+id/btnClean"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_btn_accent_ripple"
+            android:text="@string/btn_clean"
+            android:textColor="#FF0E0E0E"
+            android:textSize="@dimen/text_m"
+            android:textStyle="bold"
+            android:letterSpacing="0.05"
+            android:gravity="center"
+            android:paddingEnd="24dp"
+            android:drawableStart="@drawable/ic_clean"
+            android:drawablePadding="8dp"
+            android:layout_marginTop="@dimen/spacing_s"
+            android:layout_marginBottom="@dimen/spacing_xl" />
+
+        <!-- Clink Lens 报告区 -->
+        <LinearLayout
+            android:id="@+id/layoutLens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <!-- 报告标题行 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="@dimen/spacing_m">
+
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="16dp"
+                    android:background="@color/accent"
+                    android:layout_marginEnd="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_lens_title"
+                    android:textSize="@dimen/text_m"
+                    android:textColor="@color/text_primary"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- 动态报告卡片容器 -->
+            <LinearLayout
+                android:id="@+id/containerReports"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

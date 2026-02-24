@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clink</string>
+    <string name="tile_label">Clink</string>
+
+    <!-- Home -->
+    <string name="hint_input">Paste or type text with links…</string>
+    <string name="btn_paste">Paste Clipboard</string>
+    <string name="btn_clean">Purify Link</string>
+    <string name="label_stats_links">Purified Links</string>
+    <string name="label_stats_params">Blocked Params</string>
+    <string name="label_lens_title">Clink Lens Report</string>
+    <string name="label_original">Original URL</string>
+    <string name="label_cleaned">Purified</string>
+    <string name="label_removed">Removed Params</string>
+    <string name="toast_copied">✓ Purified link written to clipboard</string>
+    <string name="toast_no_url">No valid link detected</string>
+    <string name="toast_already_clean">Link is already clean</string>
+    <string name="toast_tile_done">✓ Clipboard link purification complete</string>
+    <string name="toast_tile_no_url">No link detected in clipboard</string>
+
+    <!-- Share Page -->
+    <string name="share_processing">Purifying…</string>
+    <string name="share_done">Purified, written to clipboard</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_reshare">Continue Share</string>
+    <string name="share_auto_close">Auto close in %d s</string>
+
+    <!-- Param Readable Names -->
+    <string name="settings_title">Settings</string>
+    <string name="group_general">General</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="language">Language</string>
+    <string name="language_desc">Switch application language / 切换应用语言</string>
+    <string name="group_rules">Rule Management</string>
+    <string name="user_rules">Custom Rules</string>
+    <string name="user_rules_desc">Manage your blocked parameters</string>
+    <string name="group_about">About</string>
+    <string name="check_update">Check for Updates</string>
+    <string name="version">Version</string>
+    <string name="no_user_rules">No custom rules yet</string>
+    <string name="add_rule_title">Add New Rule</string>
+    <string name="rule_key">Param Key (e.g. utm_source)</string>
+    <string name="rule_key_hint">Required</string>
+    <string name="rule_label">Description (Label)</string>
+    <string name="rule_label_hint">Optional</string>
+    <string name="rule_type">Rule Type</string>
+    <string name="blacklist">Blacklist (Block)</string>
+    <string name="whitelist">Whitelist (Keep)</string>
+    <string name="rule_danger">Mark as Danger</string>
+    <string name="no_description">No description</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="confirm_delete">Are you sure you want to delete this rule?</string>
+    <string name="key_exists">Rule Key already exists</string>
+    <string name="rule_added">Rule added</string>
+    <string name="rule_deleted">Rule deleted</string>
+    <string name="add_btn_desc">Add Rule</string>    <string name="import_builtin">Import Built-in</string>
+    <string name="import_builtin_title">Select Built-in Rule</string>
+    <string name="import_builtin_desc">Import from built-in rules</string>
+    <string name="builtin_blacklist">Built-in Blacklist</string>
+    <string name="builtin_whitelist">Built-in Whitelist</string>
+    <string name="rule_imported">Rule imported</string>
+    <string name="already_in_user_rules">This rule already exists in custom rules</string>
+    <string name="import_source">Import Source</string>
+    <string name="import_from_builtin">Import from Built-in</string>
+    <string name="import_from_file">Import from JSON File</string>
+    <string name="import_json_title">Import JSON Rules</string>
+    <string name="json_import_success">Successfully imported %d rules</string>
+    <string name="json_parse_error">Failed to parse JSON file</string>
+    <string name="file_read_error">Failed to read file</string>
+    <string name="edit_rule_title">Edit Rule</string>
+    <string name="save">Save</string>
+    <string name="rule_updated">Rule updated</string>
+    <string name="multi_select_mode">%d selected</string>
+    <string name="delete_selected">Delete Selected</string>
+    <string name="confirm_delete_multiple">Delete %d selected rules?</string>
+    <string name="select_all">Select All</string>
+    <string name="deselect_all">Deselect All</string>
+    <string name="rules_deleted">%d rules deleted</string>
+    <string name="error_processing">Processing error: %s</string>
+    <string name="save_failed">Failed to save</string>
+    <string name="export_rules">Export Rules</string>
+    <string name="export_source">Export Source</string>
+    <string name="export_builtin_only">Built-in Only</string>
+    <string name="export_user_only">User Rules Only</string>
+    <string name="export_merged">Merged (Deduplicated)</string>
+    <string name="export_success">Rules exported to: %s</string>
+    <string name="export_failed">Export failed</string>
+</resources>

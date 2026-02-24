@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 输入框 selector：聚焦/未聚焦切换描边颜色 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true"  android:drawable="@drawable/bg_input_focused" />
+    <item android:drawable="@drawable/bg_input_normal" />
+</selector>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 深色模式颜色 -->
+<resources>
+    <color name="bg_main">#FF0E0E0E</color>
+    <color name="bg_card">#FF1A1A1A</color>
+    <color name="bg_input">#FF242424</color>
+    <color name="bg_tag">#FF1E2D1E</color>
+    <color name="bg_sheet">#FF161616</color>
+
+    <color name="accent">#FF39FF14</color>
+    <color name="accent_btn">#FF39FF14</color>
+    <color name="accent_dim">#8039FF14</color>
+    <color name="accent_danger">#FFFF4B4B</color>
+    <color name="accent_warn">#FFFFAA00</color>
+
+    <color name="text_primary">#FFFAFAFA</color>
+    <color name="text_secondary">#FF9E9E9E</color>
+    <color name="text_accent">#FF39FF14</color>
+    <color name="text_danger">#FFFF6B6B</color>
+
+    <color name="divider">#FF2A2A2A</color>
+    <color name="stroke">#FF333333</color>
+    <color name="stroke_accent">#6039FF14</color>
+
+    <color name="status_bar">#FF0E0E0E</color>
+    <color name="nav_bar">#FF0E0E0E</color>
+    <color name="scrim">#99000000</color>
+</resources>

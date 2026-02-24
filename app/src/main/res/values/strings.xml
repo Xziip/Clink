@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clink</string>
+    <string name="tile_label">Clink</string>
+
+    <!-- 主页 -->
+    <string name="hint_input">粘贴或输入含链接的文本…</string>
+    <string name="btn_paste">粘贴剪贴板</string>
+    <string name="btn_clean">净化链接</string>
+    <string name="label_stats_links">已净化链接</string>
+    <string name="label_stats_params">拦截参数</string>
+    <string name="label_lens_title">Clink Lens 报告</string>
+    <string name="label_original">原始 URL</string>
+    <string name="label_cleaned">净化后</string>
+    <string name="label_removed">已剔除参数</string>
+    <string name="toast_copied">✓ 净化链接已写入剪贴板</string>
+    <string name="toast_no_url">未检测到有效链接</string>
+    <string name="toast_already_clean">链接已经很干净了</string>
+    <string name="toast_tile_done">✓ 剪贴板链接净化完成</string>
+    <string name="toast_tile_no_url">剪贴板中没有检测到链接</string>
+
+    <!-- 分享页 -->
+    <string name="share_processing">正在净化…</string>
+    <string name="share_done">净化完成，已写入剪贴板</string>
+    <string name="btn_close">关闭</string>
+    <string name="btn_reshare">继续分享</string>
+    <string name="share_auto_close">%d 秒后自动关闭</string>
+
+    <!-- 参数可读名称 -->
+    <string name="settings_title">设置</string>
+    <string name="group_general">常规</string>
+    <string name="dark_mode">深色模式</string>
+    <string name="language">语言</string>
+    <string name="language_desc">切换应用语言 / Switch Language</string>
+    <string name="group_rules">规则管理</string>
+    <string name="user_rules">自定义规则</string>
+    <string name="user_rules_desc">管理您添加的屏蔽参数</string>
+    <string name="group_about">关于</string>
+    <string name="check_update">检查更新</string>
+    <string name="version">版本</string>
+    <string name="no_user_rules">暂无自定义规则</string>
+    <string name="add_rule_title">添加新规则</string>
+    <string name="rule_key">参数名 (Key, e.g. utm_source)</string>
+    <string name="rule_key_hint">必填</string>
+    <string name="rule_label">说明 (Label)</string>
+    <string name="rule_label_hint">可选</string>
+    <string name="rule_type">规则类型</string>
+    <string name="blacklist">黑名单 (拦截)</string>
+    <string name="whitelist">白名单 (保留)</string>
+    <string name="rule_danger">标记为高危 (Danger)</string>
+    <string name="no_description">无描述</string>
+    <string name="add">添加</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="confirm_delete">确定删除此规则吗？</string>
+    <string name="key_exists">规则 Key 已存在</string>
+    <string name="rule_added">规则已添加</string>
+    <string name="rule_deleted">规则已删除</string>
+    <string name="add_btn_desc">添加规则</string>
+    <string name="import_builtin">导入内置规则</string>
+    <string name="import_builtin_title">选择内置规则</string>
+    <string name="import_builtin_desc">从内置规则库导入参数</string>
+    <string name="builtin_blacklist">内置黑名单</string>
+    <string name="builtin_whitelist">内置白名单</string>
+    <string name="rule_imported">规则已导入</string>
+    <string name="already_in_user_rules">该规则已存在于自定义规则中</string>
+    <string name="import_source">导入来源</string>
+    <string name="import_from_builtin">从内置规则导入</string>
+    <string name="import_from_file">从 JSON 文件导入</string>
+    <string name="import_json_title">导入 JSON 规则</string>
+    <string name="json_import_success">成功导入 %d 条规则</string>
+    <string name="json_parse_error">JSON 文件解析失败</string>
+    <string name="file_read_error">文件读取失败</string>
+    <string name="edit_rule_title">编辑规则</string>
+    <string name="save">保存</string>
+    <string name="rule_updated">规则已更新</string>
+    <string name="multi_select_mode">已选择 %d 条</string>
+    <string name="delete_selected">删除选中</string>
+    <string name="confirm_delete_multiple">确定删除选中的 %d 条规则吗？</string>
+    <string name="select_all">全选</string>
+    <string name="deselect_all">取消全选</string>
+    <string name="rules_deleted">%d 条规则已删除</string>
+    <string name="error_processing">处理出错: %s</string>
+    <string name="save_failed">保存失败</string>
+    <string name="export_rules">导出规则</string>
+    <string name="export_source">导出来源</string>
+    <string name="export_builtin_only">仅内置规则</string>
+    <string name="export_user_only">仅用户规则</string>
+    <string name="export_merged">合并规则（去重）</string>
+    <string name="export_success">规则已导出到: %s</string>
+    <string name="export_failed">导出失败</string>
+</resources>

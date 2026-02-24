@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_s">8dp</dimen>
+    <dimen name="spacing_m">16dp</dimen>
+    <dimen name="spacing_l">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+
+    <dimen name="text_xs">11sp</dimen>
+    <dimen name="text_s">13sp</dimen>
+    <dimen name="text_m">15sp</dimen>
+    <dimen name="text_l">18sp</dimen>
+    <dimen name="text_xl">28sp</dimen>
+    <dimen name="text_xxl">36sp</dimen>
+
+    <dimen name="input_height">56dp</dimen>
+    <dimen name="btn_clipboard_size">48dp</dimen>
+    <dimen name="tag_height">28dp</dimen>
+    <dimen name="stats_number_size">32sp</dimen>
+</resources>

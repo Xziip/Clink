@@ -1,0 +1,20 @@
+[versions]
+agp            = "8.5.2"
+kotlin         = "2.0.21"
+coroutines     = "1.9.0"
+coreKtx        = "1.15.0"
+activityKtx    = "1.9.3"
+lifecycleKtx   = "2.8.7"
+
+[libraries]
+kotlin-stdlib       = { group = "org.jetbrains.kotlin",  name = "kotlin-stdlib",               version.ref = "kotlin"       }
+coroutines-android  = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android",  version.ref = "coroutines"   }
+androidx-core-ktx   = { group = "androidx.core",         name = "core-ktx",                    version.ref = "coreKtx"      }
+# ComponentActivity + lifecycleScope（无 AppCompat，体积极小）
+activity-ktx        = { group = "androidx.activity",     name = "activity-ktx",                version.ref = "activityKtx"  }
+lifecycle-runtime   = { group = "androidx.lifecycle",    name = "lifecycle-runtime-ktx",       version.ref = "lifecycleKtx" }
+appcompat           = { group = "androidx.appcompat",    name = "appcompat",                   version = "1.7.0" }
+
+[plugins]
+android-application = { id = "com.android.application",      version.ref = "agp"    }
+kotlin-android      = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

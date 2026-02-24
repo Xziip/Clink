@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lens 报告卡片出现动画：从底部滑入 + 淡入 -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:interpolator/decelerate_cubic">
+    <translate
+        android:fromYDelta="40dp"
+        android:toYDelta="0"
+        android:duration="280" />
+    <alpha
+        android:fromAlpha="0"
+        android:toAlpha="1"
+        android:duration="240" />
+</set>
