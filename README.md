@@ -100,6 +100,51 @@
 3. 点击 **净化** 按钮
 4. 净化完成！弹出Clink Lens 报告
 
+## 🧪 测试示例链接
+
+想立即体验 Clink 的净化效果？复制以下示例链接进行测试：
+
+### 国内平台示例
+
+**哔哩哔哩**
+```
+https://www.bilibili.com/video/BV1GJ411x7h7?share_source=weixin&share_medium=iphone&bbid=XYABCDE123456&ts=1234567890
+```
+
+**淘宝/天猫**
+```
+https://item.taobao.com/item.htm?id=123456789&ali_trackid=2:mm_123_456_789&bxsign=tbkABC123xyz&scm=1007.12345.67890.0
+```
+
+**抖音**
+```
+https://v.douyin.com/test/?previous_page=main_tab&enter_from=message&share_user_id=123456789&iid=987654321&device_id=ABCDEF123456
+```
+
+**小红书**
+```
+https://www.xiaohongshu.com/explore/abc123?xhsshare=WeixinSession&appuid=123456&apptime=1234567890&share_id=xyz789
+```
+
+### 国际平台示例
+
+**YouTube**
+```
+https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=share&si=ABC123xyz789&utm_source=youtube&utm_medium=social
+```
+
+**Twitter/X**
+```
+https://twitter.com/user/status/1234567890?s=20&t=ABC123xyz&ref_src=twsrc%5Etfw
+```
+
+**Facebook**
+```
+https://www.facebook.com/share/example?fbclid=IwAR123456abcdef&mibextid=LQQJ4d
+```
+
+> 💡 **提示**：这些示例链接包含多种追踪参数，净化后你将看到更简洁纯净的链接版本！
+
 ## 🛠️ 技术特性
 
 ### 核心技术栈
@@ -341,6 +386,51 @@ Here are the features:
 2. Paste or enter text containing a link
 3. Tap the **Sanitize** button
 4. Sanitization complete! Clink Lens report pops up
+
+## 🧪 Test Sample Links
+
+Want to experience Clink's sanitization immediately? Copy these sample links to test:
+
+### Chinese Platform Examples
+
+**Bilibili**
+```
+https://www.bilibili.com/video/BV1GJ411x7h7?share_source=weixin&share_medium=iphone&bbid=XYABCDE123456&ts=1234567890
+```
+
+**Taobao/Tmall**
+```
+https://item.taobao.com/item.htm?id=123456789&ali_trackid=2:mm_123_456_789&bxsign=tbkABC123xyz&scm=1007.12345.67890.0
+```
+
+**Douyin (TikTok China)**
+```
+https://v.douyin.com/test/?previous_page=main_tab&enter_from=message&share_user_id=123456789&iid=987654321&device_id=ABCDEF123456
+```
+
+**Xiaohongshu (RedNote)**
+```
+https://www.xiaohongshu.com/explore/abc123?xhsshare=WeixinSession&appuid=123456&apptime=1234567890&share_id=xyz789
+```
+
+### International Platform Examples
+
+**YouTube**
+```
+https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=share&si=ABC123xyz789&utm_source=youtube&utm_medium=social
+```
+
+**Twitter/X**
+```
+https://twitter.com/user/status/1234567890?s=20&t=ABC123xyz&ref_src=twsrc%5Etfw
+```
+
+**Facebook**
+```
+https://www.facebook.com/share/example?fbclid=IwAR123456abcdef&mibextid=LQQJ4d
+```
+
+> 💡 **Tip**: These sample links contain various tracking parameters. After sanitization, you'll see a much cleaner link version!
 
 ## 🛠️ Technical Features
 
